@@ -1,0 +1,29 @@
+ /* Basic CSS for the layout */
+/* ... (previous CSS remains unchanged) */
+
+/* Additional styling for the contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.coloredSection {
+    background-color: red; /* Replace #00ff00 with the color you want */
+}
+
+input,
+textarea,
+button {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+    
